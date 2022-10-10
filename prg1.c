@@ -18,9 +18,9 @@ void main()
         case 3: res=op1*op2;
         break;
         case 4: if(op2!=0)//check to avoid divide by zero exception
-               {
+               
                    res=op1/op2;
-               } 
+                
                else
                {
                    printf("Please input a non zero denominator\n");
@@ -28,9 +28,9 @@ void main()
                }
                break;
         case 5: if(op2!=0)//check to avoid divide by zero exception
-               {
+               
                    res=(int)op1%(int)op2;
-               } 
+                
                else
                {
                    printf("Please input a non zero denominator\n");
